@@ -6,8 +6,10 @@ import { BentoSection } from "@/components/BentoSection";
 import {
   FeatureSection,
   INTAKE_SECTION,
+  PLAN_SECTION,
 } from "@/components/FeatureSection";
 import { IntakeMockup } from "@/components/mockups/IntakeMockup";
+import { PlanMockup } from "@/components/mockups/PlanMockup";
 import { Footer } from "@/components/Footer";
 
 export default function Home() {
@@ -24,6 +26,8 @@ export default function Home() {
       <BentoSection />
 
       <FeatureSection {...INTAKE_SECTION} mockup={<IntakeMockup />} />
+
+      <FeatureSection {...PLAN_SECTION} mockup={<PlanMockup />} />
 
       <Footer />
     </main>

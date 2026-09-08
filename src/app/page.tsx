@@ -3,6 +3,11 @@ import { HeroSection } from "@/components/HeroSection";
 import { LogosBar } from "@/components/LogosBar";
 import { NewSpeciesSection } from "@/components/NewSpeciesSection";
 import { BentoSection } from "@/components/BentoSection";
+import {
+  FeatureSection,
+  INTAKE_SECTION,
+} from "@/components/FeatureSection";
+import { IntakeMockup } from "@/components/mockups/IntakeMockup";
 import { Footer } from "@/components/Footer";
 
 export default function Home() {
@@ -17,6 +22,8 @@ export default function Home() {
       <NewSpeciesSection />
 
       <BentoSection />
+
+      <FeatureSection {...INTAKE_SECTION} mockup={<IntakeMockup />} />
 
       <Footer />
     </main>

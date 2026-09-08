@@ -2,6 +2,7 @@ import { Navbar } from "@/components/Navbar";
 import { HeroSection } from "@/components/HeroSection";
 import { LogosBar } from "@/components/LogosBar";
 import { NewSpeciesSection } from "@/components/NewSpeciesSection";
+import { BentoSection } from "@/components/BentoSection";
 import { Footer } from "@/components/Footer";
 
 export default function Home() {
@@ -14,6 +15,8 @@ export default function Home() {
       <LogosBar />
 
       <NewSpeciesSection />
+
+      <BentoSection />
 
       <Footer />
     </main>

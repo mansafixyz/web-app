@@ -7,9 +7,11 @@ import {
   FeatureSection,
   INTAKE_SECTION,
   PLAN_SECTION,
+  BUILD_SECTION,
 } from "@/components/FeatureSection";
 import { IntakeMockup } from "@/components/mockups/IntakeMockup";
 import { PlanMockup } from "@/components/mockups/PlanMockup";
+import { BuildMockup } from "@/components/mockups/BuildMockup";
 import { Footer } from "@/components/Footer";
 
 export default function Home() {
@@ -28,6 +30,8 @@ export default function Home() {
       <FeatureSection {...INTAKE_SECTION} mockup={<IntakeMockup />} />
 
       <FeatureSection {...PLAN_SECTION} mockup={<PlanMockup />} />
+
+      <FeatureSection {...BUILD_SECTION} mockup={<BuildMockup />} />
 
       <Footer />
     </main>

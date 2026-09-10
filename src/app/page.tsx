@@ -16,6 +16,7 @@ import { PlanMockup } from "@/components/mockups/PlanMockup";
 import { BuildMockup } from "@/components/mockups/BuildMockup";
 import { DiffsMockup } from "@/components/mockups/DiffsMockup";
 import { MonitorMockup } from "@/components/mockups/MonitorMockup";
+import { HowItWorksSection } from "@/components/HowItWorksSection";
 import { Footer } from "@/components/Footer";
 
 export default function Home() {
@@ -40,6 +41,8 @@ export default function Home() {
       <FeatureSection {...DIFFS_SECTION} mockup={<DiffsMockup />} />
 
       <FeatureSection {...MONITOR_SECTION} mockup={<MonitorMockup />} />
+
+      <HowItWorksSection />
 
       <Footer />
     </main>

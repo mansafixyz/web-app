@@ -19,6 +19,7 @@ import { MonitorMockup } from "@/components/mockups/MonitorMockup";
 import { HowItWorksSection } from "@/components/HowItWorksSection";
 import { DeveloperSection } from "@/components/DeveloperSection";
 import { FAQSection } from "@/components/FAQSection";
+import { CTASection } from "@/components/CTASection";
 import { Footer } from "@/components/Footer";
 
 export default function Home() {
@@ -49,6 +50,8 @@ export default function Home() {
       <DeveloperSection />
 
       <FAQSection />
+
+      <CTASection />
 
       <Footer />
     </main>

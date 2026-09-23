@@ -183,7 +183,7 @@ export function Navbar() {
               <XIcon />
             </Link>
             <Link
-              href="https://github.com/mansafi"
+              href="https://github.com/mansafixyz"
               target="_blank"
               rel="noopener noreferrer"
               className="transition-opacity duration-150 opacity-70 hover:opacity-100"
@@ -305,7 +305,7 @@ export function Navbar() {
               <span className="text-[18px] font-normal">X (Twitter)</span>
             </Link>
             <Link
-              href="https://github.com/mansafi"
+              href="https://github.com/mansafixyz"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 py-4 border-b transition-opacity duration-150 opacity-70 hover:opacity-100"

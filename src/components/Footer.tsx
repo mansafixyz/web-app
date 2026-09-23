@@ -48,7 +48,7 @@ const columns: FooterColumn[] = [
     links: [
       { label: "Contact us", href: "mailto:contact@mansafi.xyz" },
       { label: "X (Twitter)", href: "https://x.com/mansafixyz" },
-      { label: "GitHub", href: "https://github.com/mansafi" },
+      { label: "GitHub", href: "https://github.com/mansafixyz" },
     ],
   },
 ];

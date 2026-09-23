@@ -42,12 +42,12 @@ export function HeroSection() {
         }}
       >
         {/* Announcement chip */}
-        {/* <div className="fx-fade-up" style={{ marginBottom: "28px", display: "flex", justifyContent: "center" }}>
+        <div className="fx-fade-up" style={{ marginBottom: "28px", display: "flex", justifyContent: "center" }}>
           <Link href="/token" className="fx-chip" style={{ textDecoration: "none" }}>
-            <span className="fx-overline">$MANSA</span>
+            <span className="fx-overline">$MANSA: 0x6c673ca3d3212ddd1ba355f50631c03a1887c741</span>
             <span aria-hidden="true" style={{ color: "rgb(140,140,140)", fontSize: "12px" }}>→</span>
           </Link>
-        </div> */}
+        </div>
 
         {/* H1 */}
         <h1

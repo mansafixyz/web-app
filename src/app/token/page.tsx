@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "What $MANSA does: hold and stake the token to cut protocol fees on confidential transfers and agent payments, with staking counted at full weight and governance on the roadmap.",
 };
 
-const TOKEN_ADDRESS = "";
+const TOKEN_ADDRESS = "0x6c673ca3d3212ddd1ba355f50631c03a1887c741";
 
 const micro: React.CSSProperties = {
   fontFamily: "var(--font-mono)",
